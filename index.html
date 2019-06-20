@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge 1 - Mirthe</title>
+	<link rel="stylesheet" type="text/css" href="challenge1.css">
+	<script type="text/javascript" src="Chart.bundle.js"></script>
+	<meta name="viewport" content="width=device-width" />
+</head>
+<body id="content">
+		<h1 class="welcome">Welcome, ELON</h1>
+	<div class="flex-container">
+			<div class="food">
+				<h1>Food</h1>
+				<p>The amount of food you got left, measured in g.</p>
+				<canvas id="bar-chart" width="150" height="50"></canvas>
+			</div>
+			<div class="water">
+				<h1>Water</h1>
+				<p>The amount of water you got left, measured in percents (100% = full tank).</p>
+				<canvas id="doughnut-chart" width="150" height="50"></canvas>
+			</div>
+			<div class="distance">
+				<h1>Distance over time</h1>
+				<p>Your distance travelled over time, vertical is km +000, horizontal is hour.</p>
+				<canvas id="line-chart" width="130" height="50"></canvas>
+			</div>
+	</div>
+		<script type="text/javascript" src="challenge1.js"></script>
+</body>
+</html>
